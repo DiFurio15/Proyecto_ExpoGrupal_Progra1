@@ -30,13 +30,13 @@ public class Ganado {
         for (int i = 0; i < ganado.size(); i++) {
             if (ganado.get(i).equalsIgnoreCase(mumu)) {
                 ganado.remove(i);
-                System.out.println(mumu + " ha salido de su Pokebola!");
+                System.out.println(mumu + "ha sido vendido a u agricultor random!");
                 encontrado = true;
                 break;
             }
         }
         if (!encontrado) {
-            System.out.println("No se encontró el Pokemon " + mumu + " en tu equipo.");
+            System.out.println("No se encontró el animal " + mumu + " en tu ganado.");
         }
     }
 
